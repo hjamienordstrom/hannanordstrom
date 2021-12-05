@@ -1,0 +1,250 @@
+body{
+    font-family:Merriweather;
+    margin: 0px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    background: rgba(255, 255, 255, 0.83);
+    width:100%;
+    position: fixed;
+}
+
+.nav-bar>div:first-child{
+    margin-right:auto;
+}
+
+.menu,.menu-right{
+    font-size:20px;
+    margin:10px;
+    color:black;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    
+}
+
+#name{
+    padding-left: 20px;
+}
+
+.menu:hover{
+    color: #F29301;
+
+}
+
+.menu-right{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 15px;
+
+}
+
+.profile-background{
+    display:flex;
+    flex-direction:row;
+    padding-top: 15%;
+    padding-bottom: 12.5%;
+}
+
+.opacity-background{
+    display:flex;
+    flex-direction:row;
+    background: rgba(166, 136, 58, 0.5);
+}
+
+
+
+
+.intro-blurb{
+    font-size: 36px;
+    line-height: 95%;
+    margin:100px;
+    margin-right: 0px;
+    color: #FFFFFF;
+    /* padding-top: 30px; */
+}   
+
+.profile-picture{
+    width: 247px;
+    height: 248px;
+    border-radius: 123.5px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    margin:80px
+}
+.background{
+    background-image: url("photos/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    opacity: 75%;
+
+}
+
+.second-page{
+    background-color: #ECE9C0;
+    padding: 50px;
+}
+
+.about-me-title{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 95%;
+    color: #FDC401;
+    text-align:center;
+}
+
+.about-me-blurb{
+    font-size: 18px;
+    line-height: 34px;
+    text-align: center;
+    padding:0px 80px 0px 80px;
+    color: #414141;
+
+    
+}
+
+.project{
+    display: flex;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.experience{
+    background-color: #FFDB7E;
+    padding: 50px;
+}
+
+
+.experience-title{
+    color:  #F29301;
+    text-align: center;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 95%;
+}
+
+.contact-form{
+    background-color: #ECE9C0;
+}
+
+.contact{
+    color: #F29301;
+    text-align: center;
+    align-content: center;
+    font-weight: 900;
+font-size: 48px;
+line-height: 95%;
+}
+
+.images{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    
+}
+
+.image{
+    width: 50px;
+    height: 50px;
+}
+
+.line{
+    border: none;
+    background-color: #FDC401;
+    height: 3px;
+    width:10%
+}
+
+
+
+.picture{
+    width: 45%;
+    height:100%;
+    border-radius: 10px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+.icon{
+    color: #F29301;
+        
+}
+#skills-highlight{
+    color: #F29301;
+}
+
+.icon:hover{
+    color: #FDC401;
+}
+
+.contact-form{
+    padding:100px
+}
+
+.writing{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+    color: #414141;
+}
+
+#nav_icon{
+    text-align: center;
+    margin: 10px;
+}
+#full-name{
+    color:#F6F800;
+}
+
+@media (max-width:800px) {
+    .opacity-background{
+        display:flex;
+        flex-direction:column-reverse;
+        background: rgba(166, 136, 58, 0.5);
+       align-items: center;
+    }
+    .profile-picture{
+        width: 150px;
+        height: 150px;
+        border-radius: 123.5px;
+        margin:50px;
+        justify-self: center;
+        
+    }
+    .profile-background{
+        
+        padding-top: 30%;
+        padding-bottom: 12.5%;
+    }
+    .intro-blurb{
+        font-size: 36px;
+        line-height: 95%;
+        margin:50px;
+        margin-right: 0px;
+       
+    }
+
+    .picture{
+        width:100%
+    }
+
+    .project{
+        display: flexbox;
+        flex-direction: column;
+    }
+
+    
+
+}
