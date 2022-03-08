@@ -54,7 +54,7 @@ body{
 .opacity-background{
     display:flex;
     flex-direction:row;
-    background: #C4E1BA;
+    
 }
 
 
@@ -68,6 +68,7 @@ body{
     padding-top: 30px;
     justify-content: center;
     align-items: center;
+    color: #F6FEF1;
 }   
 
 .profile-picture{
@@ -78,7 +79,7 @@ body{
     margin:80px
 }
 .background{
-    background-color: #C4E1BA;
+    background-color: #7C9C6D;
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -88,7 +89,7 @@ body{
 }
 
 .second-page{
-    background-color: #F6FEF1;
+    background-color: #e9f7e1;
     padding: 50px;
 }
 
@@ -105,6 +106,7 @@ body{
     line-height: 34px;
     text-align: center;
     padding:0px 80px 0px 80px;
+    
 
     
 }
@@ -118,7 +120,7 @@ body{
 }
 
 .experience{
-    background-color: #F6FEF1;
+    background-color: #e9f7e1;
     padding: 50px;
 }
 
@@ -132,11 +134,12 @@ body{
 }
 
 .contact-form{
-    background-color: #C4E1BA;
+    background-color: #7C9C6D;
+    opacity: 75%;
 }
 
 .contact{
-    color: #7C9C6D;
+    color: #F6FEF1;
     text-align: center;
     align-content: center;
     font-weight: 900;
@@ -178,11 +181,11 @@ line-height: 95%;
     padding: 20px;
 }
 .icon{
-    color: #7C9C6D;
+    color: #F6FEF1;
         
 }
 #skills-highlight{
-    color: #7C9C6D;
+    color: rgb(167, 208, 148);
 }
 
 .icon:hover{
@@ -208,7 +211,7 @@ line-height: 95%;
     margin: 10px;
 }
 #full-name{
-    color:#47723e;
+    color:#181818;
 }
 
 @media (max-width:800px) {
